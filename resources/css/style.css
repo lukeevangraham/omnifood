@@ -191,7 +191,7 @@ a:hover, a:active {
 /* --------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(img/hero-min.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -249,20 +249,18 @@ header {
 }
 
 /* MOBILE NAV */
+
 .mobile-nav-icon {
     float: right;
     margin-top: 30px;
     cursor: pointer;
     display: none;
-    border: 0;
 }
 
 .mobile-nav-icon i {
     font-size: 200%;
     color: #fff;
 }
-
-
 
 /* Sticky Nav */
 
@@ -276,13 +274,13 @@ header {
     z-index: 9999;
 }
 
+.sticky .main-nav {
+    margin-top: 18px;
+}
+
 .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
     padding: 16px 0;
     color: #555;
-}
-
-.sticky .main-nav {
-    margin-top: 18px;
 }
 
 .sticky .logo {
@@ -424,7 +422,7 @@ header {
 /* --------------------------- */
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -637,12 +635,12 @@ footer p {
 .js--wp-1, .js--wp-2, .js--wp-3 {
     opacity: 0;
     -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 .js--wp-4 {
     -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 .js--wp-1 .animated, .js--wp-2 .animated, .js--wp-3 .animated {
