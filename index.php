@@ -347,12 +347,15 @@
             <form method="post" action="mailer.php" class="contact-form">
                 <div class="row">
 
+                    <?php
+
                     <div class="form-messages success">
                         Thank You! Your message has been sent.
                     </div>
                     <!-- <div class="form-messages error">
                         Oops!  something went wrong.  Please try again!
                     </div> -->
+                    ?>
                 </div>
                 <div class="row">
                     <div class="col span-1-of-3">
